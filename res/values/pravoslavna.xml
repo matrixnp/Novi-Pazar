@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="pravoslavna">
+        <item name="crnareka">Crna Reka</item>
+        <item name="djstupovi">Djurdjevi Stupovi</item>
+        <item name="sopocani">Sopoćani</item>
+        <item name="svmarina">Sv.Marina</item>
+        <item name="pcrkva">Petrova Crkva</item>
+        <item name="galerija">Galerija</item>
+        
+    </string-array>   
+</resources>

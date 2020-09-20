@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="carsija">
+        <item name="hamam">Gazi Isa Begov hamam</item>
+        <item name="han">Amir-agin han</item>
+        <item name="bedem">Bedem</item>
+        <item name="motrilja">Kula Motrilja</item>
+        <item name="pazariste">Trgovište Stari Ras</item>
+        <item name="galerija">Galerija</item>
+    </string-array>
+    
+</resources>

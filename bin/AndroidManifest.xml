@@ -1,0 +1,199 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="glesevic.novipazar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Holo.Light"
+        tools:ignore="AllowBackup" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name=".Main"
+            android:label="Novi Pazar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Islamska"
+            android:label="Islamska"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Crna_Reka"
+            android:label="Crna Reka"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Djurdjevi_Stupovi"
+            android:label="Djurdjevi Stupovi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sopocani"
+            android:label="Sopocani"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Petrova_crkva"
+            android:label="Petrova Crkva" >
+        </activity>
+        <activity
+            android:name=".Sveta_Marina"
+            android:label="Sveta Marina"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Antun_Alem_dzamija"
+            android:label="Antun Alem dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Korisne_informacije"
+            android:label="Korisne informacije"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Gde_odsesti"
+            android:label="Gde Odsesti"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jevrejska"
+            android:label="Jevrejska"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Kontakt"
+            android:label="Kontakt"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Kulturna_bastina"
+            android:label="Kulturna Baština"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".O_Gradu"
+            android:label="O Gradu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Pravoslavna"
+            android:label="Pravoslavna"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Stara_Carsija"
+            android:label="Stara Čaršija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Arap_Dzamija"
+            android:label="Arap Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Begova_dzamija"
+            android:label="Begova Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bor_dzamija"
+            android:label="Bor Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Isah_dzamija"
+            android:label="Isah Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Kolerina_dzamija"
+            android:label="Kolerina Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Lejlek_Dzamija"
+            android:label="Lejlek Dzamija"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jevrjesko_groblje"
+            android:label="Jevrjesko gorblje"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sinagoga"
+            android:label="Sinagoga"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Amir_agin_han"
+            android:label="Amir agin han" >
+        </activity>
+        <activity
+            android:name=".Bedem"
+            android:label="Bedem" >
+        </activity>
+        <activity
+            android:name=".Gazi_Isa_Begov_hamam"
+            android:label="Gazi Isa Begov hamam" >
+        </activity>
+        <activity
+            android:name=".Kula_Motrilja"
+            android:label="Kula Motrilja" >
+        </activity>
+        <activity
+            android:name=".Trgoviste_Stari_Ras"
+            android:label="Trgoviste Stari Ras" >
+        </activity>
+        <activity
+            android:name=".GalerijaPravo"
+            android:label="Galerija" >
+        </activity>
+        <activity
+            android:name=".GalerijaIsam"
+            android:label="Galerija" >
+        </activity>
+        <activity
+            android:name=".GalerijaJevr"
+            android:label="Galerija" >
+        </activity>
+        <activity
+            android:name=".GalerijaStara"
+            android:label="Galerija" >
+        </activity>
+        <activity android:name=".Adapter" >
+        </activity>
+        <activity android:name=".ExpandListChild" >
+        </activity>
+        <activity android:name=".ExpandListGroup" >
+        </activity>
+        <activity
+            android:name=".Vrbak"
+            android:label="Hotel Vrbak" >
+        </activity>
+        <activity
+            android:name=".Tadz"
+            android:label="Hotel Tadz" >
+        </activity>
+        <activity
+            android:name=".MSopocani"
+            android:label="Motel Sopocani" >
+        </activity>
+    </application>
+
+</manifest>

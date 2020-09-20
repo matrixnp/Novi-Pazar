@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmdpi"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/textViewPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primalac"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp" />
+	<TextView
+        android:id="@+id/primalac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goran Lešević"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predmet"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp" />
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+    </EditText>
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poruka"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="20dp" />
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pošalji"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

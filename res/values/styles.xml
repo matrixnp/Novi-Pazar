@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Tema1" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColor">@color/tekst</item>
+    </style>
+
+    <style name="styleName" parent="android:Widget.Holo.ListView">
+        <item name="android:background">@color/list</item>
+    </style>
+
+</resources>

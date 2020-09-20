@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name ="islamska">
+        <item name="aadzamija">Antun Alem džamija</item>
+        <item name="arapdzamija">Arap džamija</item>
+        <item name="lejlekdzamija">Lejlek džamija</item>
+        <item name="bordzamija">Hadži Huremova-Bor džamija</item>
+        <item name="begovadzamija">Gazi Sinan Begova džamija</item>
+        <item name="kolerinadzamija">Kolerina džamija u Potoku</item>
+        <item name="isahdzamija">Tabak Ishak džamija</item>
+        <item name="galerija">Galerija</item>
+    </string-array>
+    
+</resources>

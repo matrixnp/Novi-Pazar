@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="hoteli">
+        <item name="vrbak">Hotel Vrbak</item>
+        <item name="tadz">Hotel Tadz</item>
+        <item name="msopocani">Motel Sopocani</item>
+        
+    </string-array>
+    
+</resources>

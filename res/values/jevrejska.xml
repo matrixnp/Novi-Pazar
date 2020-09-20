@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jevrjeska">
+       <item name="groblje">Jevrejsko groblje</item>
+       <item name="sinagoga">Sinagoga</item>
+       <item name="galerija">Galerija</item>
+        
+    </string-array>
+    
+</resources>
